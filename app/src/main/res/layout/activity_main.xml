@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
@@ -15,24 +16,30 @@
         android:textStyle="bold"
         android:textColor="#0090FF"
         android:layout_gravity="center"
-        android:text="@string/Welcom"
+        android:text="@string/welcom"
         android:rotation="30"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="40dp"
          />
 
-     <EditText
-         android:hint="@string/age"
+    <EditText
+        android:hint="@string/age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         android:textColor=""
-></EditText>
+        android:textColorHint="#FF0000"
+        />
+
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clickMe"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        style="@style/CardView"
+        android:layout_marginTop="30dp"
+
         />
 
     <Switch
@@ -40,18 +47,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/veryGood"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
        />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:alpha="0.2"
         android:text="@string/readyAdventure"
-         />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="12dp"
         />
 </LinearLayout>
