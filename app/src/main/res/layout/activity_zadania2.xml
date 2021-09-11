@@ -12,6 +12,7 @@
         android:orientation="horizontal">
     <EditText
         android:id="@+id/editTextEmailAddress"
+        android:ems="12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/textEmailAddress"
@@ -81,6 +82,13 @@
         >  </EditText>
     </LinearLayout>>
 
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </CalendarView>
 
 
 </LinearLayout>
