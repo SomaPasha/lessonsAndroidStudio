@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">lesson_1</string>
+    <string name="Welcom">УРА ПЕРВОЕ ЗАДАНИЕ)</string>
+    <string name="age">Введите свой возраст</string>
+    <string name="clickMe">НАЖМИ МЕНЯ</string>
+    <string name="veryGood">Сегодня отличный день?</string>
+    <string name="readyAdventure">Готов к приключениям?</string>
 </resources>
